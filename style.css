@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #0077ff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 40px 10%;
+}
+
+h2 {
+    color: #0077ff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #0077ff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about p {
+    margin-top: 15px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.skills li {
+    background: #0077ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.projects {
+    background-color: #eef4ff;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #0077ff;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
